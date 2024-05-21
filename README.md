@@ -5,7 +5,9 @@
 
 ![爱情兑换券示例](docs/img/img1.png)
 
-目前线上使用地址：[http://love.xfairy.cn:520](http://love.xfairy.cn:520)
+目前线上使用地址：[http://love.xfairy.cn](http://love.xfairy.cn)
+
+注意，因为浏览器限制，打开以后无法自动播放，要手动播放音乐，带端口号的可以自动播放..
 
 这个项目完全是用各种AI工具制作的，背景音乐由 Suno 生成，爱情兑换券由 DALL-E 生成，代码由 GPT-4 编写。稍后会更新详细的音乐和兑换券制作方法。
 

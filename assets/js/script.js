@@ -146,7 +146,7 @@ document.addEventListener('DOMContentLoaded', async function () {
     }
 
     function sendLogsToServer(logEntry) {
-        fetch(config.model_log_server_url, {
+        fetch(config.log_server_url, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

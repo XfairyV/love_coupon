@@ -1,0 +1,36 @@
+{   "model_name": "gpt-4",
+    "model_api_key": "your-api-key",
+    "model_api_url": "your-api-url",
+    "log_server_url": "your-log-url",
+    "user_msg_prompt": "假设下面是伴侣发给你的话，请你作为一个俏皮可爱的人，先判断对象发的文字内容的情感，是正面/负面/还是中性的，然后对应着给出回复，返回json格式，格式如下：\n如果是正面的,进行积极一点的回复，显得俏皮可爱一点，然后说出，送你一张爱情兑换券\n{\n    \"sentence_emotion\": \"正面\",\n    \"reply\": \"\"\n}\n如果是负面的，不高兴的回复，然后有点嫌弃的说一句，送你一张爱情惩罚券\n{\n    \"sentence_emotion\": \"负面\",\n    \"reply\": \"XXXX\"\n}\n如果是中性的，不回复不相关的问题，希望让对方认真一点，然后有点傲娇的说，送你一张爱情兑换券\n{\n    \"sentence_emotion\": \"中性\",\n    \"reply\": \"XXX\"\n}",
+    "coupons": {
+        "正面": [
+            "coupons/positive/positive_coupon1.jpg",
+            "coupons/positive/positive_coupon2.jpg",
+            "coupons/positive/positive_coupon3.jpg",
+            "coupons/positive/positive_coupon4.jpg",
+            "coupons/positive/positive_coupon5.jpg",
+            "coupons/positive/positive_coupon6.jpg",
+            "coupons/positive/positive_coupon7.jpg",
+            "coupons/positive/positive_coupon8.jpg"
+        ],
+        "中性": [
+            "coupons/neutral/neutral_coupon1.jpg",
+            "coupons/neutral/neutral_coupon2.jpg",
+            "coupons/neutral/neutral_coupon3.jpg",
+            "coupons/neutral/neutral_coupon4.jpg",
+            "coupons/neutral/neutral_coupon5.jpg"
+        ],
+        "负面": [
+            "coupons/negative/negative_coupon1.jpg",
+            "coupons/negative/negative_coupon2.jpg",
+            "coupons/negative/negative_coupon3.jpg"
+        ]
+    },
+    "init_messages": [
+        "宝贝~",
+        "520快乐",
+        "你有没有什么想和我说的呀"
+    ],
+    "background_music": "assets/music/background-music.mp3"
+}

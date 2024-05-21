@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>爱情兑换券</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <canvas id="heartCanvas"></canvas>
+    <div id="messageContainer"></div>
+    <div id="questionContainer" style="display: none;">
+        <p>宝贝~</p>
+        <input type="text" id="userMessageInput" placeholder="Type your message here">
+        <button id="submitMessage">Submit</button>
+        <div id="loading" style="display: none;">Loading...</div>
+        <div id="result"></div>
+        <button id="downloadLogs" style="display: none;">Download Logs</button>
+    </div>
+    <div id="musicControl">
+        <img src="assets/img/music-note.png" id="musicButton" alt="Music Control">
+    </div>
+    <audio id="backgroundMusic" src="assets/music/background-music.mp3" loop></audio>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
